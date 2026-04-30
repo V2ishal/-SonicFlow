@@ -6,7 +6,7 @@
  margin:0;
  background-color: ;
  color:;
- overflow:hidden; 
+ /* overflow:hidden;  */
  border: 5px solid red;
 }
 .main{
@@ -15,15 +15,18 @@
     border:5px solid rgb(12, 245, 39);
 }
 .sidebar{
-    border:5px solid green;
+    border:5px solid rgb(250, 1, 1);
     width:340px;
     border-radius:1rem;
+    background-color:#000;
 }
 .main-content{
     border:5px solid red;
     flex:1;
     border-radius:1rem;
     overflow:auto;
+    background-color: #121212;
+    color:white;
 }
 .music-player{
     border:5px solid blue; 
@@ -32,5 +35,44 @@
     bottom:0px;
     width:100%;
     height:75px;
-    /* left:0px; */
+    left:0px;
+    background-color:black;
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none;
+    color:#fff;
+}
+.nav{
+    background-color:#121212;
+    border:5px solid white;
+    border-radius:1rem;
+    display:flex;
+    flex-direction:column;
+    /* height:100px; */
+    justify-content: center;
+    padding:0.5rem 0.75rem;
+}
+.nav-option{
+    border: 5px solid red;
+    line-height:2.5rem;
+    opacity:0.7;
+    padding:0.5rem 0.75rem;
+}
+.nav-option:hover{
+    opacity:1;
+}
+.nav-option i{
+    color:white;
+    font-size: 1.25rem;
+}
+.nav-option a{
+    font-size: 1rem;
+    margin-left:1rem;
+}
+.library{
+   border:5px solid yellow;
+}
+.icons i{
+    color:white;
 }
