@@ -1,28 +1,32 @@
  html{
-    /* border:5px solid yellow; */
+    border:5px solid yellow;
+    /* height:100%; */
+      /* outline: 2px solid red; */
 }
  body{
  font-family:"montserrat","sans-serif";
  margin:0;
  background-color:black;
- overflow:hidden; 
- /* border: 5px solid red; */
+ /* overflow:hidden;  */
+ border: 5px solid red;
+ /* height:100%; */
+   /* outline: 2px solid rgb(195, 255, 0); */
 }
 .main{
     display:flex;
     height:100vh;
-    /* border:5px solid rgb(12, 245, 39); */
+    border:5px solid rgb(12, 245, 39);
     padding:0.5rem;
 }
 .sidebar{
-    /* border:5px solid rgb(250, 1, 1); */
+    border:5px solid rgb(250, 1, 1);
     width:340px;
     border-radius:1rem;
     background-color:#000;
     margin-right:0.5rem;
 }
 .main-content{
-    /* border:5px solid rgb(255, 0, 225); */
+    border:5px solid rgb(255, 0, 225);
     flex:1;
     border-radius:1rem;
     overflow:auto;
@@ -43,6 +47,7 @@
     display:flex;
     justify-content:space-between;
     align-items: center;
+    opacity:0;
 }
 a{
     text-decoration:none;
@@ -335,5 +340,8 @@ h2{
     color:white;
     font-size:1rem;
 }
-
+*{
+  box-sizing: border-box;
+  /* outline: 2px solid red; */
+}
 
