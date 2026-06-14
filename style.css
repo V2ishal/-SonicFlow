@@ -3,15 +3,16 @@
     margin:0px;
 }
 html{
-    border:5px solid green;
+    border:7px solid green;
 }
 body{
-    border:5px solid red;
+    border:7px solid red;
 }
 .main{
     height:100vh;
-    border:5px solid yellow;
+    border:7px solid rgb(6, 42, 241);
     display:flex;
+    padding:5px;
 }
 
 
