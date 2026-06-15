@@ -18,10 +18,10 @@ body{
 }
 .sidebar{
     width:300px;
-    border:10px solid rgb(238, 3, 250);
+    border:5px solid rgb(238, 3, 250);
 }
 .main-content{
-    border:10px solid rgb(25, 0, 255);
+    border:5px solid rgb(25, 0, 255);
     flex:1;
 }
 .music-player{
