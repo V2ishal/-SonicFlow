@@ -27,9 +27,10 @@ body{
 .music-player{
     border:5px solid rgb(26, 229, 15);
     position:fixed;
-    width:100%;
     height:100px;
     bottom:0px;
-    box-sizing: border-box;
+    width:100%;
+    left:0px;
+    opacity:0;
 }
 
