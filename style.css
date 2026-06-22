@@ -20,6 +20,7 @@ body{
     width:300px;
     border:5px solid rgb(238, 3, 250);
     border-radius:15px;
+    background-color: blueviolet;
 }
 .main-content{
     border:5px solid rgb(25, 0, 255);
@@ -47,4 +48,12 @@ body{
 }
 #nav-option i{
     font-size:1.5rem;
+}
+#one{
+    margin-top:5px;
+    padding:5px;
+    outline: 3px solid yellowgreen;
+}
+#one div{
+    font-size:;
 }
