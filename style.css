@@ -19,9 +19,9 @@ body{
 }
 .sidebar{
     width:350px;
-    border:5px solid rgb(238, 3, 250);
+    /* border:5px solid rgb(238, 3, 250); */
     border-radius:20px;
-    
+    outline:3px solid rgb(165, 248, 13);
 }
 .main-content{
     border:5px solid rgb(25, 0, 255);
