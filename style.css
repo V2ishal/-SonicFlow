@@ -19,13 +19,14 @@ body{
 }
 .sidebar{
     width:350px;
-    /* border:5px solid rgb(238, 3, 250); */
+    border:5px solid rgb(238, 3, 250);
     border-radius:20px;
-    outline:3px solid rgb(165, 248, 13);
+    /* outline:5px solid rgb(165, 248, 13); */
 }
 .main-content{
     border:5px solid rgb(25, 0, 255);
     flex:1;
+    /* outline:5px solid rgb(255, 255, 255); */
 }
 .music-player{
     border:5px solid rgb(26, 229, 15);
@@ -43,7 +44,7 @@ body{
     display:flex;
     flex-direction:column;
     border-radius:20px;
-    outline:2px solid white;
+    /* outline:2px solid white; */
 }
 .nav-option a{
     color:white;
@@ -55,7 +56,7 @@ body{
 #one{
     margin-top:10px;
     padding:5px;
-    outline: 3px solid yellowgreen;
+    /* outline: 3px solid yellowgreen; */
     /* display:flex; */
     background-color: rgb(41, 37, 37);
 }
@@ -69,7 +70,7 @@ body{
 }
 .lab span{
     color:white;
-    font-size:1.5rem;
+    font-size:1.6rem;
     margin-left:5px;
 }
 .arrow{
@@ -90,4 +91,33 @@ body{
 .nav-option i{
     margin-left:10px;
 }
-
+.lab{
+    padding:1rem;
+    border-radius:20px;
+    height:300px;
+    background-color: rgb(23, 22, 22);
+    margin-top:10px;
+}
+.lab-options{
+    display:flex;
+    /* border: 2px solid white; */
+    justify-content: space-between;
+}
+.lab-icon-img{
+    height:2rem;
+    width:2rem;
+    margin-right:10px;
+}
+.span{
+    /* border:1px solid red; */
+    display:flex;
+}
+.lab-icon{
+    /* border: 1px solid yellow; */
+    display:flex;
+    align-items: center;
+}
+.lab-icon i{
+    font-size:1.5rem;
+    margin-right:0.5rem;
+}
