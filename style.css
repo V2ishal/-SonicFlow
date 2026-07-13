@@ -45,6 +45,7 @@ body{
     flex-direction:column;
     border-radius:20px;
     /* outline:2px solid white; */
+    align-items:stretch;
 }
 .nav-option a{
     color:white;
