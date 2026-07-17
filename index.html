@@ -1,20 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="assets/icon/logo.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Spotify - Web Player: Music for everyone</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- tumhara existing code -->
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" href="assets/icon/logo.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+  <title>Spotify Clone</title>
 </head>
 <body>
-    <div class="main">
-    <div class="sidebar">sidebar</div>
-    <div class="main-content">main-content</div>
-    <div class="music-player">music-player</div>
+  <div class="app">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+
+    <nav class="nav">
+      <div class="nav-option">
+        <i class="fa-regular fa-house"></i>
+        <a href="#">Home</a>
+      </div>
+      <div class="nav-option">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <a href="#">Search</a>
+      </div>
+    </nav>
+
+    <div class="library">
+      <div class="library-header">
+        <div class="left">
+          <img src="assets/icon/library_icon.png">
+          <span>Your Library</span>
+        </div>
+        <div class="right">
+          <i class="fa-solid fa-plus"></i>
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </div>
+
+      <div class="library-content">
+        <div class="card">
+          <h3>Create your first playlist</h3>
+          <p>It's easy, we'll help you</p>
+          <button>Create Playlist</button>
+        </div>
+
+        <div class="card">
+          <h3>Let's find some podcasts</h3>
+          <p>We'll keep you updated</p>
+          <button>Browse Podcasts</button>
+        </div>
+      </div>
     </div>
+
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <header class="header"></header>
+    <section class="content"></section>
+  </main>
+
+  <!-- Player -->
+  <footer class="player"></footer>
+
+</div>
 </body>
 </html>                  
