@@ -3,14 +3,16 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  overflow:hidden
 }
 
 .app {
   display: flex;
   height:100vh;
   background: black;
-  border: 5px solid white;
+  border: 5px solid rgb(255, 29, 29);
   color:white;
+  width:100vw;
 }
 /* SIDEBAR */
 .sidebar {
@@ -126,6 +128,7 @@ html{
   height:100vh; */
 }
 body{
-  border:5px solid rgb(0, 195, 255);
-  /* height:100vh; */
+  /* border:5px solid rgb(0, 195, 255); */
+  /* height:100vh;
+  z-index:2; */
 }
