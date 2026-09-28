@@ -14,6 +14,7 @@
     padding:10px;
     display:flex;
     flex-direction:column;
+    gap:10px;
 }
 .main-content{
     flex-grow:1;
@@ -37,4 +38,6 @@
 }
 .library{
   flex-grow:1;
+  display:flex;
+  flex-direction:column;
 }
