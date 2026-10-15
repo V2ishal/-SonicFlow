@@ -11,8 +11,11 @@
 .sidebar{
   width:300px;
   padding:10px;
-  background-color:rgb(52, 49, 49);
+  background-color:rgb(33, 29, 29);
   border-radius:10px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
 }
 .main-content{
   flex:1;
@@ -25,4 +28,23 @@
   height:70px;
   width:100%;
   background-color:rgb(35, 20, 20);
+  opacity:0;
+}
+i{
+  font-size:20px;
+}
+span{
+  color:white;
+  font-size:20px;
+}
+.nav-options{
+  display:flex;
+  gap:7px;
+  padding:7px;
+}
+.nav{
+  padding:10px;
+}
+.player{
+  flex:1;
 }
