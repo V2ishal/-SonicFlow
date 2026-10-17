@@ -48,3 +48,6 @@ span{
 .player{
   flex:1;
 }
+.library-header{
+  display:flex;
+}
