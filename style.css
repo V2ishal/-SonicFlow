@@ -30,9 +30,6 @@
   background-color:rgb(35, 20, 20);
   opacity:0;
 }
-i{
-  font-size:20px;
-}
 span{
   color:white;
   font-size:20px;
@@ -55,7 +52,7 @@ span{
 }
 .left{
   display:flex;
-  gap:15px;
+  gap:10px;
   align-items:center;
 }
 .right{
