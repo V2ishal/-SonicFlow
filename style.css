@@ -11,7 +11,7 @@
 .sidebar{
   width:300px;
   padding:10px;
-  background-color:rgb(33, 29, 29);
+  background-color:black;
   border-radius:10px;
   display:flex;
   flex-direction:column;
@@ -30,31 +30,60 @@
   background-color:rgb(35, 20, 20);
   opacity:0;
 }
-span{
-  color:white;
-  font-size:20px;
-}
-.nav-options{
-  display:flex;
-  gap:7px;
-  padding:7px;
-}
 .nav{
   padding:10px;
+  background-color: rgb(21, 19, 19);
+  border-radius:7px;
 }
-.player{
+.nav-options{
+  padding:5px;
+  display:flex;
+  flex-direction:row;
+  gap:5px;
+}
+.nav-options span{
+  color:white;
+}
+.nav-options i{
+  color:rgb(255, 246, 246);
+}
+.lab{
   flex:1;
-}
-.library-header{
   display:flex;
-  justify-content:space-between;
+  background-color: rgb(21, 19, 19);
+  border-radius:7px;
+  flex-direction:column;
+}
+.lab-options{
+  display:flex;
+  flex-direction:row;
   padding:10px;
+  justify-content:space-between;
 }
-.left{
-  display:flex;
+#one{
   gap:10px;
+  display:flex;
+  flex-direction:row;
   align-items:center;
 }
-.right{
-
+span{
+  color:white;
+}
+.card{
+  padding:10px;
+  background-color: rgb(48, 45, 45);
+  border-radius:15px;
+  margin:5px;
+}
+.card p{
+  margin:10px;
+  color:white;
+  font-size: 20px;
+}
+.card button{
+  border-radius:10px;
+  padding:7px;
+}
+.card h1{
+  color: white;
 }
