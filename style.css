@@ -76,13 +76,13 @@ span{
   margin-bottom:5px;
 }
 .card p{
-  margin:10px;
-  color:white;
-  font-size: 20px;
+  margin:8px 0px;
+  color:#ccc;
 }
 .card button{
-  border-radius:10px;
-  padding:7px;
+  border-radius:20px;
+  padding:6px 12px;
+  font-weight:bold;
 }
 .card h1{
   color: white;
